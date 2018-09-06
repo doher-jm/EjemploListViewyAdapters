@@ -10,13 +10,6 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    /*static final String[] QUESOS = {
-            "Parmesan",
-            "Ricotta",
-            "Fontina",
-            "Mozzarella",
-            "Cheddar"
-    };*/
     String[] QUESOS = ListaQuesos.getInstance().getQuesos();
 
     @Override
