@@ -10,6 +10,8 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    // Obtenemos referencia al singleton con la lista de quesos
+
     String[] QUESOS = ListaQuesos.getInstance().getQuesos();
 
     @Override
